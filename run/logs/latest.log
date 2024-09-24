@@ -1,0 +1,14 @@
+[25Sep2024 00:00:43.740] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[25Sep2024 00:00:43.743] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[25Sep2024 00:00:43.748] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[25Sep2024 00:00:43.778] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[25Sep2024 00:00:43.778] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[25Sep2024 00:00:43.778] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[25Sep2024 00:00:44.090] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[25Sep2024 00:00:45.267] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[25Sep2024 00:00:45.267] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[25Sep2024 00:00:45.280] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[25Sep2024 00:00:45.280] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[25Sep2024 00:00:45.280] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[25Sep2024 00:00:45.280] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[25Sep2024 00:00:46.715] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
