@@ -33,8 +33,8 @@ public class CreateBetterVillagersModVillagerProfessions {
 	public static final RegistryObject<VillagerProfession> BRASSWORKER = registerProfession("brassworker", AllBlocks.ROTATION_SPEED_CONTROLLER::get, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.comparator.click")));
 	public static final RegistryObject<VillagerProfession> COPPERWORKER = registerProfession("copperworker", AllBlocks.STEAM_ENGINE::get, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.copper.place")));
 	public static final RegistryObject<VillagerProfession> MINER = registerProfession("miner", AllBlocks.MECHANICAL_DRILL::get, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.stone.break")));
-	//public static final RegistryObject<VillagerProfession> BRASS_MINNER = registerProfession("brass_minner", AllBlocks.MECHANICAL_ARM::get, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.amethyst_block.break")));
-	//public static final RegistryObject<VillagerProfession> COPPERMINNER = registerProfession("copperminner", AllBlocks.HOSE_PULLEY::get, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("intentionally_empty")));
+	public static final RegistryObject<VillagerProfession> BRASS_MINNER = registerProfession("brass_minner", AllBlocks.MECHANICAL_ARM::get, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.amethyst_block.break")));
+	public static final RegistryObject<VillagerProfession> COPPERMINNER = registerProfession("copperminner", AllBlocks.HOSE_PULLEY::get, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("intentionally_empty")));
 
 	private static RegistryObject<VillagerProfession> registerProfession(String name, Supplier<Block> block, Supplier<SoundEvent> soundEvent) {
 		POI_TYPES.put(name, new ProfessionPoiType(block, null));
