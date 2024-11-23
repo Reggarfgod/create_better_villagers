@@ -36,7 +36,8 @@ Work Bench - STEAM_ENGINE
 Miner
 
 Buys and Sells Andesite,Copper and Brass raw part
-Work Bench - MECHANICAL_DRILL
+Work Bench - MECHANICAL_ARM
+
 
 ![image](https://github.com/user-attachments/assets/b95ee51c-4dd0-4972-81ea-777f4d86acd8)
 
