@@ -1,10 +1,9 @@
-#Whether to log the dirt block on common setup
-logDirtBlock = true
-#A magic number
-#Range: > 0
-magicNumber = 42
-#What you want the introduction message to be for the magic number
-magicNumberIntroduction = "The magic number is... "
-#A list of items to log on common setup.
-items = ["minecraft:iron_ingot"]
+
+[welcome_message]
+	#Enable or disable the welcome message
+	enabled = true
+	#The message to be displayed when a player joins the game for the first time
+	text = "THANKS TO OUR SPONSORS, ZAP-HOSTING! Support Reggarf And Save BIG - USE CODE Reggarf-1047 FOR 20% OFF Your ORDER!"
+	#The URL to be opened when the player clicks the link
+	url = "https://zap-hosting.com/reggarf"
 
