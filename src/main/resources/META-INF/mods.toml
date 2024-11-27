@@ -69,6 +69,12 @@ versionRange="[0.5.1.j,)"
 ordering = "AFTER"
 side = "BOTH"
 
+[[dependencies."${mod_id}"]]
+modId = "underground_village"
+mandatory = true
+versionRange="[1.5.2,)"
+ordering = "NONE"
+side = "BOTH"
 
 
 
