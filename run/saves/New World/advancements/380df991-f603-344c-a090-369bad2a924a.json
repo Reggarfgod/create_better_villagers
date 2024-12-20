@@ -1,10 +1,4 @@
 {
-  "create:root": {
-    "criteria": {
-      "0": "2024-11-27 23:13:46 +0530"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
       "unlock_right_away": "2024-11-27 23:13:20 +0530"
@@ -16,6 +10,12 @@
       "minecraft:bamboo_jungle": "2024-11-27 23:13:22 +0530"
     },
     "done": false
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2024-11-27 23:13:46 +0530"
+    },
+    "done": true
   },
   "DataVersion": 3465
 }

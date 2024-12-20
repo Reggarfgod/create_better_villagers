@@ -1,6 +1,6 @@
 package com.reggarf.mods.create_better_villagers;
 
-import com.reggarf.mods.create_better_villagers.join.FirstJoinMessageHandler;
+//import com.reggarf.mods.create_better_villagers.join.FirstJoinMessageHandler;
 import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.config.ModConfig;
 import org.apache.logging.log4j.Logger;
@@ -45,7 +45,7 @@ public class CreateBetterVillagersMod {
 		CreateBetterVillagersModVillagerProfessions.PROFESSIONS.register(bus);
 
 		//join register
-		ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, FirstJoinMessageHandler.COMMON_SPEC);
+		//ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, FirstJoinMessageHandler.COMMON_SPEC);
 		// Start of user code block mod init
 		// End of user code block mod init
 	}

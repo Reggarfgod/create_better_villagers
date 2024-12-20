@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/AE2BV.create_better_villagers.main.iml" filepath="$PROJECT_DIR$/.idea/modules/AE2BV.create_better_villagers.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/AE2BV.create_better_villagers.test.iml" filepath="$PROJECT_DIR$/.idea/modules/AE2BV.create_better_villagers.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Documents.create_better_villagers.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Documents.create_better_villagers.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Documents.create_better_villagers.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Documents.create_better_villagers.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.reggarf.mods.create_better_villagers.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.reggarf.mods.create_better_villagers.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.reggarf.mods.create_better_villagers.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.reggarf.mods.create_better_villagers.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/create_better_villagers.main.iml" filepath="$PROJECT_DIR$/.idea/modules/create_better_villagers.main.iml" />
