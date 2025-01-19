@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.reggarf.mods.create_better_villagers.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

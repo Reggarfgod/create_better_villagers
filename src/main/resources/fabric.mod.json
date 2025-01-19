@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "create-better-villagers",
+	"version": "${version}",
+	"name": "Create Better Villagers",
+	"description": "Create: Better Villager that adds a host of Create-mod village professions!",
+	"authors": [
+		"Reggarf aka Anoop Singh"
+	],
+	"contact": {
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/create-better-villager",
+		"sources": "https://github.com/Reggarfgod/create_better_villagers",
+		"issues":"https://github.com/Reggarfgod/create_better_villagers/issues"
+	},
+		"license": "MIT",
+	"icon": "assets/create-better-villagers/logo.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.reggarf.mods.create_better_villagers.CreateBetterVillagers"
+		],
+		"fabric-datagen": [
+			"com.reggarf.mods.create_better_villagers.CreateBetterVillagersDataGenerator"
+		]
+	},
+	"mixins": [
+		"create-better-villagers.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"create" : "*"
+	},
+
+	"suggests": {
+		"another-mod": "*"
+	}
+}
