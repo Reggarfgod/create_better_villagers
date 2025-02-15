@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MOD.create_better_villagers.main.iml" filepath="$PROJECT_DIR$/.idea/modules/MOD.create_better_villagers.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MOD.create_better_villagers.test.iml" filepath="$PROJECT_DIR$/.idea/modules/MOD.create_better_villagers.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/create-better-villagers-template.main.iml" filepath="$PROJECT_DIR$/.idea/modules/create-better-villagers-template.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/create-better-villagers-template.test.iml" filepath="$PROJECT_DIR$/.idea/modules/create-better-villagers-template.test.iml" />
     </modules>
