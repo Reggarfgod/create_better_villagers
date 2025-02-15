@@ -41,9 +41,7 @@ public class CreateBetterVillagersMod {
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
 		CreateBetterVillagersModVillagerProfessions.PROFESSIONS.register(bus);
-
 		//join register
 		//ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, FirstJoinMessageHandler.COMMON_SPEC);
 		// Start of user code block mod init
