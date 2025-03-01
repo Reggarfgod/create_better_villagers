@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "create_better_villagers:andesite_worker",
+    "create_better_villagers:brass_worker",
+    "create_better_villagers:copper_worker",
+    "create_better_villagers:miner"
+  ]
+}
