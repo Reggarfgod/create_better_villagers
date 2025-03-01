@@ -124,6 +124,9 @@ repositories {
         name = 'tterrag maven'
         url = 'https://maven.tterrag.com/'
     }
+    maven {
+        url "https://cursemaven.com"
+    }
   flatDir {
    dir 'libs'
      }
@@ -141,7 +144,10 @@ dependencies {
     implementation fg.deobf("com.jozufozu.flywheel:flywheel-forge-${flywheel_minecraft_version}:${flywheel_version}")
     implementation fg.deobf("com.tterrag.registrate:Registrate:${registrate_version}")
     implementation fg.deobf("curse.maven:underground-villages-stoneholm-1123746:5887917")
-
+  //JER
+    implementation fg.deobf("curse.maven:just-enough-resources-jer-240630:5057220")
+    //JEI
+    implementation fg.deobf("curse.maven:jei-238222:6075247")
 
 }
 minecraft {
