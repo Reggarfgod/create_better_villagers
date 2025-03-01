@@ -18,7 +18,7 @@ repositories {
 	maven { url = "https://maven.tterrag.com/" } // Flywheel
 	maven { url = "https://maven.jamieswhiteshirt.com/libs-release" } // Reach Entity Attributes
 	maven { url = "https://raw.githubusercontent.com/Fuzss/modresources/main/maven" } // Forge Config API Port
-
+	maven { url "https://cursemaven.com"}
 
 }
 
@@ -39,6 +39,12 @@ dependencies {
 
 	// Create - dependencies are added transitively
 	modImplementation("com.simibubi.create:create-fabric-${minecraft_version}:${create_version_fabric}")
+
+	//JER
+	modImplementation "curse.maven:just-enough-resources-jer-240630:5057223"
+
+	//JEI
+	modImplementation "curse.maven:jei-238222:6075246"
 	
 }
 
