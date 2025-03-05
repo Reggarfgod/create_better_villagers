@@ -63,11 +63,11 @@ ordering = "NONE"
 side = "BOTH"
 
 [[dependencies."${mod_id}"]]
-modId = "create"
-mandatory = true
-versionRange="[0.5.1.j,)"
-ordering = "AFTER"
-side = "BOTH"
+modId="create"
+mandatory=true
+versionRange="[6.0.1,)"
+ordering="AFTER"
+side="BOTH"
 
 [[dependencies."${mod_id}"]]
 modId = "underground_village"

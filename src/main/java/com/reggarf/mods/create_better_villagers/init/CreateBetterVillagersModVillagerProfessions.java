@@ -1,13 +1,14 @@
 
 package com.reggarf.mods.create_better_villagers.init;
 
+import com.simibubi.create.AllBlocks;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.RegisterEvent;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import com.simibubi.create.AllBlocks;
+
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.entity.npc.VillagerProfession;
 import net.minecraft.world.entity.ai.village.poi.PoiTypes;
