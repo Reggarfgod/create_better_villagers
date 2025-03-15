@@ -5,6 +5,9 @@
 <p>&nbsp;</p>
 <p style="text-align: center;"><img src="https://media.forgecdn.net/attachments/description/null/description_9db24c00-7ce9-4c29-af58-e44c53e38af4.png" alt="" width="493" height="493"></p>
 <p style="text-align: center;"><strong><span style="color: #2dc26b;">Create: Better Villager</span> that adds a host of Create-mod village professions <img src="https://media.forgecdn.net/attachments/description/null/description_0120b73c-046a-4b20-b605-562d6bff7358.png" alt="" width="34" height="34"></strong></p>
+![Modrinth Downloads](https://img.shields.io/modrinth/dt/kS90mr4y?color=34D058&label=downloads)
+![CurseForge Downloads](https://img.shields.io/curseforge/dt/1108525?color=FC7303&label=downloads)
+
 <h3 style="text-align: center;"><span style="color: #f1c40f;"><strong>MODPACK DEV MUST READ</strong></span></h3>
 <div class="spoiler">
 <p>[FILE PATH] - config/create_better_villagers-common.toml</p>
