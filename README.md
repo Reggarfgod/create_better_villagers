@@ -11,6 +11,20 @@
     <img src="https://img.shields.io/curseforge/dt/1108525?color=FC7303&label=CurseForge%20Downloads">
     <img src="https://img.shields.io/github/issues/Reggarfgod/create_better_villagers?color=6E40C9&label=Issues">
 </p>
+<h1 style="text-align: center;"><strong>Mod Stats</strong></h1>
+<p style="text-align: center;">
+    <!-- Modrinth Downloads Badge -->
+    <img src="https://img.shields.io/modrinth/dt/kS90mr4y?color=34D058&label=Modrinth%20Downloads&logo=modrinth&logoColor=white">
+    
+    <!-- CurseForge Downloads Badge -->
+    <img src="https://img.shields.io/curseforge/dt/1108525?color=FC7303&label=CurseForge%20Downloads&logo=curseforge&logoColor=white">
+    
+    <!-- GitHub Issues Badge -->
+    <img src="https://img.shields.io/github/issues/Reggarfgod/create_better_villagers?color=6E40C9&label=Issues&logo=github">
+    
+    <!-- Discord Online Users Badge -->
+    <img src="https://img.shields.io/discord/YOUR_DISCORD_ID?color=5865F2&label=Online%20Users&logo=discord">
+</p>
 
 <h3 style="text-align: center;"><span style="color: #f1c40f;"><strong>MODPACK DEV MUST READ</strong></span></h3>
 <div class="spoiler">
