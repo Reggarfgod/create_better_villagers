@@ -1,26 +1,13 @@
+<p style="text-align: center;"><a href="https://modrinth.com/mod/create-better-villagers" target="_blank" rel="noopener"><img src="https://img.shields.io/modrinth/dt/kS90mr4y?color=34D058&amp;label=Modrinth%20Downloads&amp;logo=modrinth&amp;logoColor=white"></a> <a href="https://www.curseforge.com/minecraft/mc-mods/create-better-villager" target="_blank" rel="noopener"><img src="https://img.shields.io/curseforge/dt/1108525?color=FC7303&amp;label=CurseForge%20Downloads&amp;logo=curseforge&amp;logoColor=white"></a> <img src="https://img.shields.io/github/issues/Reggarfgod/create_better_villagers?color=6E40C9&amp;label=Issues&amp;logo=github"> <a href="https://discord.gg/CN962KMpJk" target="_blank" rel="noopener"><img src="https://img.shields.io/discord/430776550443581450?color=5865F2&amp;label=Online%20Users&amp;logo=discord"></a></p>
 <h1 style="text-align: center;"><a style="background-color: rgb(13, 13, 13); font-family: Lato, 'Segoe UI', sans-serif; font-size: 16px; font-weight: 400; color: #e5e5e5;" href="https://zap-hosting.com/reggarf" target="_blank" rel="nofollow noopener"><strong><img src="https://media.forgecdn.net/attachments/description/1010929/description_2dbdedf7-e1a0-4bcd-86a6-01c26447af70.png"></strong></a></h1>
 <h1 style="text-align: center;"><strong>THANKS TO OUR SPONSORS</strong></h1>
 <p style="text-align: center;"><strong>THANKS TO ZAP-HOSTING! Use code Reggarf-1047 for 20% off any order!</strong></p>
 <p style="text-align: center;"><strong><a href="https://zap-hosting.com/reggarf" target="_blank" rel="nofollow noopener">https://zap-hosting.com/reggarf</a></strong></p>
 <p>&nbsp;</p>
 <p style="text-align: center;"><img src="https://media.forgecdn.net/attachments/description/null/description_9db24c00-7ce9-4c29-af58-e44c53e38af4.png" alt="" width="493" height="493"></p>
-<p style="text-align: center;"><strong><span style="color: #2dc26b;">Create: Better Villager</span> that adds a host of Create-mod village professions <img src="https://media.forgecdn.net/attachments/description/null/description_0120b73c-046a-4b20-b605-562d6bff7358.png" alt="" width="34" height="34"></strong></p>
-
-<h1 style="text-align: center;"><strong>Mod Stats</strong></h1>
-<div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
-    <img src="https://img.shields.io/modrinth/dt/kS90mr4y?color=34D058&label=Modrinth%20Downloads&logo=modrinth&logoColor=white">
-    <img src="https://img.shields.io/curseforge/dt/1108525?color=FC7303&label=CurseForge%20Downloads&logo=curseforge&logoColor=white">
-    <img src="https://img.shields.io/github/issues/Reggarfgod/create_better_villagers?color=6E40C9&label=Issues&logo=github">
-    <img src="https://img.shields.io/discord/YOUR_DISCORD_ID?color=5865F2&label=Online%20Users&logo=discord">
-</div>
-
-<h3 style="text-align: center;"><span style="color: #f1c40f;"><strong>MODPACK DEV MUST READ</strong></span></h3>
-<div class="spoiler">
-<p>[FILE PATH] - config/create_better_villagers-common.toml</p>
-<p>#NOTE: You can change the text and URL to suit your needs.</p>
-<p>[welcome_message]<br>&nbsp; &nbsp; # Enable or disable the welcome message<br>&nbsp; &nbsp; enabled = true<br>&nbsp; &nbsp; # The message to be displayed when a player joins the game for the first time<br>&nbsp; &nbsp; text = "THANKS TO OUR SPONSORS, ZAP-HOSTING! Support Reggarf And Save BIG - USE CODE Reggarf-1047 FOR 20% OFF Your ORDER!"<br>&nbsp; &nbsp; # The URL to be opened when the player clicks the link<br>&nbsp; &nbsp; url = "<a href="https://legacy.curseforge.com/linkout?remoteUrl=https://zap-hosting.com/reggarf" target="_blank" rel="nofollow noopener">https://zap-hosting.com/reggarf</a>"</p>
-<p># Additional NOTE: Support me by keeping this configuration intact. Thank you!.</p>
-</div>
+<div style="display: flex;">&nbsp;</div>
+<div style="display: flex;">&nbsp;</div>
+<div style="display: flex; text-align: center;"><strong><span style="color: #2dc26b;">Create: Better Villager</span> that adds a host of Create-mod village professions <img style="display: block; margin-left: auto; margin-right: auto;" src="https://media.forgecdn.net/attachments/description/null/description_0120b73c-046a-4b20-b605-562d6bff7358.png" alt="" width="34" height="34"></strong></div>
 <h1 style="text-align: center;"><strong>List of Features</strong></h1>
 <p style="text-align: center;"><span style="color: #f1c40f;"><strong><span style="text-decoration: underline;">Andesite Worker</span></strong></span></p>
 <ul>
