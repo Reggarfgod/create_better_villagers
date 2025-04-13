@@ -1,6 +1,7 @@
 package com.reggarf.mods.create_better_villagers;
 
 import com.reggarf.mods.create_better_villagers.init.ModVillagerProfessions;
+import com.reggarf.mods.create_better_villagers.message.IGMHandler;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
@@ -36,6 +37,7 @@ public class Create_better_villagers
         modEventBus.addListener(this::registerNetworking);
 
         ModVillagerProfessions.PROFESSIONS.register(modEventBus);
+        NeoForge.EVENT_BUS.register(IGMHandler.class);
 
     }
 

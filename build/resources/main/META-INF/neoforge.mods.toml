@@ -17,7 +17,7 @@ license="MIT"
 # The modid of the mod
 modId="create_better_villagers" #mandatory
 # The version number of the mod
-version="1.2.6-Neoforge-1.21.1" #mandatory
+version="1.2.9-Neoforge-1.21.1" #mandatory
 # A display name for the mod
 displayName="Create_Better_Villagers" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification https://docs.neoforge.net/docs/misc/updatechecker/

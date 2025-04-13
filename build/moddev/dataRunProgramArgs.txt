@@ -24,6 +24,6 @@ forgedatauserdev
 create_better_villagers
 --all
 --output
-D:\\Download\\create_better_villagers\\src\\generated\\resources
+D:\\Download\\MOD\\create_better_villagers\\src\\generated\\resources
 --existing
-D:\\Download\\create_better_villagers\\src\\main\\resources
+D:\\Download\\MOD\\create_better_villagers\\src\\main\\resources
