@@ -1,5 +1,6 @@
 package com.reggarf.mods.create_better_villagers;
 
+import com.reggarf.mods.create_better_villagers.message.IGMHandler;
 import com.reggarf.mods.create_better_villagers.util.CBVModCustomTrades;
 import com.reggarf.mods.create_better_villagers.villager.CBVModVillagers;
 import net.fabricmc.api.ModInitializer;
@@ -15,7 +16,7 @@ public class CreateBetterVillagers implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		CBVModCustomTrades.registerCustomTrades();
-
+		IGMHandler.init();
 		CBVModVillagers.registerVillagers();
 
 		LOGGER.info("Hello Fabric world!");
