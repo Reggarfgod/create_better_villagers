@@ -1,6 +1,7 @@
 package com.reggarf.mods.create_better_villagers;
 
 //import com.reggarf.mods.create_better_villagers.join.FirstJoinMessageHandler;
+import com.reggarf.mods.create_better_villagers.message.IGMHandler;
 import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.config.ModConfig;
 import org.apache.logging.log4j.Logger;
@@ -37,15 +38,10 @@ public class CreateBetterVillagersMod {
 	public static final String MODID = "create_better_villagers";
 
 	public CreateBetterVillagersMod() {
-		// Start of user code block mod constructor
-		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		CreateBetterVillagersModVillagerProfessions.PROFESSIONS.register(bus);
-		//join register
-		//ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, FirstJoinMessageHandler.COMMON_SPEC);
-		// Start of user code block mod init
-		// End of user code block mod init
+		MinecraftForge.EVENT_BUS.register(IGMHandler.class);
 	}
 
 	// Start of user code block mod methods
