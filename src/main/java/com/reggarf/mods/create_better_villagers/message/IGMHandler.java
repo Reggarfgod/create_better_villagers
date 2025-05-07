@@ -2,6 +2,7 @@ package com.reggarf.mods.create_better_villagers.message;
 
 // ===================== Imports =====================
 
+import com.reggarf.mods.create_better_villagers.config.ModConfigs;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.ClickEvent;
 import net.minecraft.network.chat.Component;
@@ -19,7 +20,7 @@ import static net.minecraft.network.chat.TextColor.fromRgb;
 public class IGMHandler {
 
     // ===================== Configuration =====================
-    public static boolean enabled = true;
+    public static boolean enabled = ModConfigs.ENABLE_IN_GAME_MESSAGE.get();
 
     // Text colors (hex codes)
     public static String titleColor = "DDA0FF";
