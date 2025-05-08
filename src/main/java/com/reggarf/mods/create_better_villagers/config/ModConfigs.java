@@ -9,7 +9,6 @@ import net.minecraftforge.fml.common.Mod;
 public class ModConfigs {
     public static final ForgeConfigSpec COMMON_SPEC;
 
-    // Villager profession enabling flags
     public static final String CATAGORY_VILLAGERS = "villagers";
     public static final String CATAGORY_MESSAGE = "message";
     public static ForgeConfigSpec.BooleanValue ENABLE_IN_GAME_MESSAGE;
@@ -17,8 +16,8 @@ public class ModConfigs {
     public static ForgeConfigSpec.BooleanValue ENABLE_BRASSWORKER;
     public static ForgeConfigSpec.BooleanValue ENABLE_COPPERWORKER;
     public static ForgeConfigSpec.BooleanValue ENABLE_MINER;
-    public static ForgeConfigSpec.BooleanValue ENABLE_BRASS_MINER;
-    public static ForgeConfigSpec.BooleanValue ENABLE_COPPER_MINER;
+   // public static ForgeConfigSpec.BooleanValue ENABLE_TECHWRIGHT;
+   // public static ForgeConfigSpec.BooleanValue ENABLE_COPPER_MINER;
 
     static {
         ForgeConfigSpec.Builder builder = new ForgeConfigSpec.Builder();
@@ -41,6 +40,10 @@ public class ModConfigs {
         ENABLE_MINER = builder.comment("Enable Miner Profession",
                         "Requires game restart after changing this setting.")
                 .define("enableMiner", true);
+//        ENABLE_TECHWRIGHT = builder.comment("Enable Techwright Profession",
+//                        "Requires game restart after changing this setting.")
+//                .define("enabletechwrith", true);
+//
 
         builder.pop();
         COMMON_SPEC = builder.build();

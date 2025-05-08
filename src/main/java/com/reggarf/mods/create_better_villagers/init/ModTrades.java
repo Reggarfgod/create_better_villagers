@@ -83,5 +83,25 @@ public class ModTrades {
 				event.getTrades().get(5).add(new BasicItemListing(new ItemStack(Blocks.BARREL, 2), new ItemStack(AllItems.IRON_SHEET, 2), new ItemStack(AllBlocks.ITEM_VAULT, 2), 4, 5, 0.05f));
 			}
 		}
+
+//		if (ModConfigs.ENABLE_TECHWRIGHT.get()){
+//			if (event.getType() == ModVillagers.TECHWRIGHT.get()) {
+//				event.getTrades().get(1).add(new BasicItemListing(new ItemStack(Items.EMERALD, 10), new ItemStack(Items.REDSTONE, 20), 3, 5, 0.07f));
+//				event.getTrades().get(1).add(new BasicItemListing(new ItemStack(Items.EMERALD, 19), new ItemStack(AllBlocks.SHAFT, 6), new ItemStack(AllBlocks.COGWHEEL, 3), 3, 5, 0.07f));
+//				event.getTrades().get(1).add(new BasicItemListing(new ItemStack(Items.EMERALD, 21), new ItemStack(AllBlocks.COGWHEEL, 6), new ItemStack(AllBlocks.GEARBOX, 2), 3, 5, 0.07f));
+//				event.getTrades().get(1).add(new BasicItemListing(new ItemStack(Items.EMERALD, 20), new ItemStack(AllBlocks.COGWHEEL, 3), new ItemStack(AllBlocks.LARGE_COGWHEEL, 2), 3, 5, 0.07f));
+//				event.getTrades().get(1).add(new BasicItemListing(new ItemStack(Items.EMERALD, 31), new ItemStack(AllItems.ANDESITE_ALLOY, 3), new ItemStack(AllBlocks.SHAFT, 16), 3, 5, 0.07f));
+//				event.getTrades().get(2).add(new BasicItemListing(new ItemStack(Items.EMERALD, 31), new ItemStack(AllBlocks.ANDESITE_ALLOY_BLOCK, 1), new ItemStack(AllBlocks.ANDESITE_FUNNEL, 5), 4, 5, 0.05f));
+//				event.getTrades().get(2).add(new BasicItemListing(new ItemStack(Items.EMERALD, 53), new ItemStack(AllItems.ANDESITE_ALLOY, 3), new ItemStack(AllBlocks.ANDESITE_TUNNEL, 2), 2, 5, 0.05f));
+//				event.getTrades().get(2).add(new BasicItemListing(new ItemStack(Items.EMERALD, 43), new ItemStack(AllBlocks.SHAFT, 2), new ItemStack(AllBlocks.COGWHEEL, 4), 2, 5, 0.05f));
+//				event.getTrades().get(3).add(new BasicItemListing(new ItemStack(Items.EMERALD, 20), new ItemStack(Items.IRON_INGOT, 4), new ItemStack(AllItems.IRON_SHEET, 5), 2, 5, 0.07f));
+//				event.getTrades().get(3).add(new BasicItemListing(new ItemStack(Items.EMERALD, 56), new ItemStack(AllItems.ROSE_QUARTZ, 3), 3, 5, 0.05f));
+//				event.getTrades().get(4).add(new BasicItemListing(new ItemStack(Items.EMERALD, 11), new ItemStack(Items.IRON_INGOT, 1), new ItemStack(AllItems.FILTER, 2), 2, 5, 0.05f));
+//				event.getTrades().get(4).add(new BasicItemListing(new ItemStack(Items.EMERALD, 40), new ItemStack(AllItems.GOLDEN_SHEET, 4), new ItemStack(AllItems.GOGGLES, 1), 2, 5, 0.05f));
+//				event.getTrades().get(5).add(new BasicItemListing(new ItemStack(Items.EMERALD, 20), new ItemStack(AllItems.IRON_SHEET, 8), new ItemStack(AllItems.PROPELLER, 2), 3, 5, 0.05f));
+//				event.getTrades().get(5).add(new BasicItemListing(new ItemStack(Items.EMERALD, 39), new ItemStack(AllItems.ANDESITE_ALLOY, 10), new ItemStack(AllItems.WHISK, 2), 2, 5, 0.05f));
+//				event.getTrades().get(5).add(new BasicItemListing(new ItemStack(Blocks.BARREL, 2), new ItemStack(AllItems.IRON_SHEET, 2), new ItemStack(AllBlocks.ITEM_VAULT, 2), 4, 5, 0.05f));
+//			}
+//		}
 	}
 }

@@ -30,6 +30,9 @@ public class ModVillagers {
     public static RegistryObject<PoiType> MINER_POI;
     public static RegistryObject<VillagerProfession> MINER;
 
+    public static RegistryObject<PoiType> TECHWRIGHT_POI;
+    public static RegistryObject<VillagerProfession> TECHWRIGHT;
+
     public static void register(IEventBus eventBus) {
         if (ModConfigs.ENABLE_ANDESITE_WORKER.get()) {
             ANDESITE_WORKER_POI = POI_TYPES.register("andesite_worker_poi",
@@ -66,6 +69,14 @@ public class ModVillagers {
                             holder -> holder.get() == MINER_POI.get(), holder -> holder.get() == MINER_POI.get(),
                             ImmutableSet.of(), ImmutableSet.of(), SoundEvents.VILLAGER_WORK_ARMORER));
         }
+//        if (ModConfigs.ENABLE_TECHWRIGHT.get()) {
+//            TECHWRIGHT_POI = POI_TYPES.register("techwright_poi",
+//                    () -> new PoiType(ImmutableSet.copyOf(AllBlocks.PACKAGE_FROGPORT.get().getStateDefinition().getPossibleStates()), 1, 1));
+//            TECHWRIGHT = VILLAGER_PROFESSIONS.register("techwright",
+//                    () -> new VillagerProfession("techwright",
+//                            holder -> holder.get() == TECHWRIGHT_POI.get(), holder -> holder.get() == TECHWRIGHT_POI.get(),
+//                            ImmutableSet.of(), ImmutableSet.of(), SoundEvents.VILLAGER_WORK_ARMORER));
+//        }
 
         POI_TYPES.register(eventBus);
         VILLAGER_PROFESSIONS.register(eventBus);
