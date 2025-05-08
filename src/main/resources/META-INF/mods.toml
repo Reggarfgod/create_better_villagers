@@ -72,7 +72,7 @@ side="BOTH"
 [[dependencies."${mod_id}"]]
 modId = "underground_village"
 mandatory = true
-versionRange="[1.5.4,)"
+versionRange="[1.5.2,)"
 ordering = "NONE"
 side = "BOTH"
 

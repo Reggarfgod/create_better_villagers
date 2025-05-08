@@ -19,7 +19,6 @@ public class Client {
 
     public static void onInitializeClient(final FMLClientSetupEvent event) {
 
-
         ModContainer modContainer = ModList.get()
                 .getModContainerById(MODID)
                 .orElseThrow(() -> new IllegalStateException("What the..."));
