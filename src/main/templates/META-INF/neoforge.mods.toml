@@ -83,3 +83,10 @@ type="required"
 versionRange="[6.0.0,)"
 ordering="AFTER"
 side="BOTH"
+
+[[dependencies."${mod_id}"]]
+modId="cloth_config"
+mandatory=true
+versionRange="[15.0.140,)"
+ordering="NONE"
+side="BOTH"
