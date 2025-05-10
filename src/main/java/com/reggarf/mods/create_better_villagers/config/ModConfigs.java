@@ -1,6 +1,5 @@
 package com.reggarf.mods.create_better_villagers.config;
 
-import com.reggarf.mods.create_better_villagers.Create_better_villagers;
 import me.shedaniel.autoconfig.ConfigData;
 import me.shedaniel.autoconfig.annotation.Config;
 import me.shedaniel.autoconfig.annotation.ConfigEntry;
@@ -9,7 +8,6 @@ import me.shedaniel.cloth.clothconfig.shadowed.blue.endless.jankson.Comment;
 
 
 @Config(name = "create_better_villagers")
-@Config.Gui.Background("minecraft:textures/block/mossy_cobblestone.png")
 public class ModConfigs extends PartitioningSerializer.GlobalData {
 
     @ConfigEntry.Category("common")
