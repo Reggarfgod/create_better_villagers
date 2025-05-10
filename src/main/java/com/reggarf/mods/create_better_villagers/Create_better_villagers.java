@@ -36,9 +36,7 @@ public class Create_better_villagers {
     public Create_better_villagers(IEventBus modEventBus, ModContainer modContainer) {
 
         /// /////////////////////////////////////////////////
-        ModLoadingContext.get().registerExtensionPoint(IConfigScreenFactory.class, () -> (container, parent) -> {
-            return AutoConfig.getConfigScreen(ModConfigs.class, parent).get();
-        });
+
         AutoConfig.register(ModConfigs.class, PartitioningSerializer.wrap(JanksonConfigSerializer::new));
         CONFIG = AutoConfig.getConfigHolder(ModConfigs.class).getConfig();
         /// ///////////////////////////////////////////////////
@@ -63,6 +61,9 @@ public class Create_better_villagers {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
+            ModLoadingContext.get().registerExtensionPoint(IConfigScreenFactory.class, () -> (container, parent) -> {
+                return AutoConfig.getConfigScreen(ModConfigs.class, parent).get();
+            });
 
         }
     }
