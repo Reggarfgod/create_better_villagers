@@ -1,5 +1,6 @@
 package com.reggarf.mods.create_better_villagers.message;
 
+import com.reggarf.mods.create_better_villagers.CreateBetterVillagers;
 import net.fabricmc.fabric.api.networking.v1.ServerPlayConnectionEvents;
 import net.minecraft.nbt.NbtCompound;
 import net.minecraft.server.network.ServerPlayerEntity;
@@ -9,8 +10,6 @@ import net.minecraft.text.Text;
 import net.minecraft.text.TextColor;
 
 public class IGMHandler {
-
-    public static boolean enabled = true;
 
     public static String titleColor = "DDA0FF";
     public static String zapColor = "00FFFF";
@@ -22,8 +21,10 @@ public class IGMHandler {
     public static void init() {
         ServerPlayConnectionEvents.JOIN.register((handler, sender, server) -> {
             ServerPlayerEntity player = handler.getPlayer();
-            if (!enabled) return;
 
+            if (!CreateBetterVillagers.CONFIG.MESSAGE.ENABLE_IN_GAME_MESSAGE) {
+                return;
+            }
             NbtCompound persistentData = player.getCustomData();
             NbtCompound ig_data = persistentData.getCompound("ig_message_data");
 
@@ -46,7 +47,9 @@ public class IGMHandler {
         Text discord = Text.literal(" - ")
                 .append(Text.literal("Join our Discord ")
                         .setStyle(Style.EMPTY
-                                .withClickEvent(new ClickEvent(ClickEvent.Action.OPEN_URL, "https://discord.com/invite/CN962KMpJk"))
+                                .withClickEvent(new ClickEvent(
+                                        ClickEvent.Action.OPEN_URL,
+                                        "https://discord.com/invite/CN962KMpJk"))
                                 .withColor(parseTextColor(discordColor))
                                 .withUnderline(true)))
                 .append(Text.literal(" (support, updates)"));
@@ -54,7 +57,9 @@ public class IGMHandler {
         Text zap = Text.literal(" - ")
                 .append(Text.literal("ZAP-Hosting ")
                         .setStyle(Style.EMPTY
-                                .withClickEvent(new ClickEvent(ClickEvent.Action.OPEN_URL, "https://zap-hosting.com/reggarf"))
+                                .withClickEvent(new ClickEvent(
+                                        ClickEvent.Action.OPEN_URL,
+                                        "https://zap-hosting.com/reggarf"))
                                 .withColor(parseTextColor(zapColor))
                                 .withUnderline(true)))
                 .append(Text.literal(" (20% off with code Reggarf-1047)"));
@@ -62,7 +67,9 @@ public class IGMHandler {
         Text disable = Text.literal(" - ")
                 .append(Text.literal("Disable this message")
                         .setStyle(Style.EMPTY
-                                .withClickEvent(new ClickEvent(ClickEvent.Action.OPEN_URL, "https://www.curseforge.com/minecraft/mc-mods/create-better-villager"))
+                                .withClickEvent(new ClickEvent(
+                                        ClickEvent.Action.OPEN_URL,
+                                        "https://www.curseforge.com/minecraft/mc-mods/create-better-villager"))
                                 .withColor(parseTextColor(disableColor))
                                 .withUnderline(true)))
                 .append(Text.literal(" (Mod config)"));
@@ -70,7 +77,9 @@ public class IGMHandler {
         Text issueTracker = Text.literal(" - ")
                 .append(Text.literal("Issue Tracker")
                         .setStyle(Style.EMPTY
-                                .withClickEvent(new ClickEvent(ClickEvent.Action.OPEN_URL, "https://github.com/Reggarfgod/create_better_villagers/issues"))
+                                .withClickEvent(new ClickEvent(
+                                        ClickEvent.Action.OPEN_URL,
+                                        "https://github.com/Reggarfgod/create_better_villagers/issues"))
                                 .withColor(parseTextColor(githubColor))
                                 .withUnderline(true)))
                 .append(Text.literal(" (github/wiki)"));
@@ -90,7 +99,7 @@ public class IGMHandler {
             return TextColor.fromRgb(rgb);
         } catch (NumberFormatException e) {
             System.err.println("Invalid color format: " + hex);
-            return TextColor.fromRgb(0xFFFFFF); // Default to white
+            return TextColor.fromRgb(0xFFFFFF);
         }
     }
 }

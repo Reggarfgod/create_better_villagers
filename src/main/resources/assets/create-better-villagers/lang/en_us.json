@@ -7,5 +7,25 @@
   "entity.minecraft.villager.create_better_villagers.andesite_worker": "Andesite Worker",
   "entity.minecraft.villager.create_better_villagers.brassworker": "Brassworker",
   "entity.minecraft.villager.create_better_villagers.copperworker": "Copperworker",
-  "entity.minecraft.villager.create_better_villagers.miner": "Miner"
+  "entity.minecraft.villager.create_better_villagers.miner": "Miner",
+
+  "text.autoconfig.create-better-villagers.title": "Create Better Villagers",
+
+  "text.autoconfig.create-better-villagers.category.message": "Message",
+  "text.autoconfig.create-better-villagers.category.villagers": "Villagers",
+
+  "text.autoconfig.create-better-villagers.option.MESSAGE.ENABLE_IN_GAME_MESSAGE": "Enable In-Game Message",
+  "text.autoconfig.create-better-villagers.option.MESSAGE.ENABLE_IN_GAME_MESSAGE.@Tooltip": "Enable or disable the in-game message.",
+
+  "text.autoconfig.create-better-villagers.option.VILLAGERS.ENABLE_ANDESITE_WORKER": "Enable Andesite Worker",
+  "text.autoconfig.create-better-villagers.option.VILLAGERS.ENABLE_ANDESITE_WORKER.@Tooltip": "Enable Andesite Worker profession.",
+
+  "text.autoconfig.create-better-villagers.option.VILLAGERS.ENABLE_BRASSWORKER": "Enable Brass Worker",
+  "text.autoconfig.create-better-villagers.option.VILLAGERS.ENABLE_BRASSWORKER.@Tooltip": "Enable Brass Worker profession.",
+
+  "text.autoconfig.create-better-villagers.option.VILLAGERS.ENABLE_COPPERWORKER": "Enable Copper Worker",
+  "text.autoconfig.create-better-villagers.option.VILLAGERS.ENABLE_COPPERWORKER.@Tooltip": "Enable Copper Worker profession.",
+
+  "text.autoconfig.create-better-villagers.option.VILLAGERS.ENABLE_MINER": "Enable Miner",
+  "text.autoconfig.create-better-villagers.option.VILLAGERS.ENABLE_MINER.@Tooltip": "Enable Miner profession."
 }

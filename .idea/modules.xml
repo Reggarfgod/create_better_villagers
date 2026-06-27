@@ -8,6 +8,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/MOD.create_better_villagers.test.iml" filepath="$PROJECT_DIR$/.idea/modules/MOD.create_better_villagers.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/create-better-villagers-template.main.iml" filepath="$PROJECT_DIR$/.idea/modules/create-better-villagers-template.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/create-better-villagers-template.test.iml" filepath="$PROJECT_DIR$/.idea/modules/create-better-villagers-template.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/create_better_villagers.test.iml" filepath="$PROJECT_DIR$/.idea/modules/create_better_villagers.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/newmods.create_better_villagers.main.iml" filepath="$PROJECT_DIR$/.idea/modules/newmods.create_better_villagers.main.iml" />
     </modules>
   </component>
 </project>

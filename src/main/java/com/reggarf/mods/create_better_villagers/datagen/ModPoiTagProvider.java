@@ -11,9 +11,9 @@ import net.minecraft.world.poi.PointOfInterestType;
 
 import java.util.concurrent.CompletableFuture;
 
-public class CBVModPoiTagProvider extends TagProvider<PointOfInterestType> {
-    public CBVModPoiTagProvider(DataOutput output,
-                                CompletableFuture<RegistryWrapper.WrapperLookup> registryLookupFuture) {
+public class ModPoiTagProvider extends TagProvider<PointOfInterestType> {
+    public ModPoiTagProvider(DataOutput output,
+                             CompletableFuture<RegistryWrapper.WrapperLookup> registryLookupFuture) {
         super(output, RegistryKeys.POINT_OF_INTEREST_TYPE, registryLookupFuture);
     }
 

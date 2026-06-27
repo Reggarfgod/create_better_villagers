@@ -21,6 +21,9 @@
 		],
 		"fabric-datagen": [
 			"com.reggarf.mods.create_better_villagers.CreateBetterVillagersDataGenerator"
+		],
+		"modmenu": [
+			"com.reggarf.mods.create_better_villagers.config.MenuIntegration"
 		]
 	},
 	"mixins": [

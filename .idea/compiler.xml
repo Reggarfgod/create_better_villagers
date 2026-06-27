@@ -3,4 +3,11 @@
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="17" />
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="create_better_villagers" options="-AoutRefMapFile=E:\newmods\create_better_villagers\build\classes\java\main\create-better-villagers-refmap.json -AdefaultObfuscationEnv=named:intermediary -Aquiet=true -AoutMapFileNamedIntermediary=E:\newmods\create_better_villagers\build\loom-cache\mixin-map-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.main.tiny &quot;-AinMapFileNamedIntermediary=C:\Users\Anoop Singh\.gradle\caches\fabric-loom\1.20.1\net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2\mappings.tiny&quot;" />
+      <module name="create_better_villagers.test" options="-AoutRefMapFile=E:\newmods\create_better_villagers\build\classes\java\test\test-create-better-villagers-refmap.json -AdefaultObfuscationEnv=named:intermediary -Aquiet=true -AoutMapFileNamedIntermediary=E:\newmods\create_better_villagers\build\loom-cache\mixin-map-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.test.tiny &quot;-AinMapFileNamedIntermediary=C:\Users\Anoop Singh\.gradle\caches\fabric-loom\1.20.1\net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2\mappings.tiny&quot;" />
+      <module name="newmods.create_better_villagers.main" options="-AoutRefMapFile=E:\newmods\create_better_villagers\build\classes\java\main\create-better-villagers-refmap.json -AdefaultObfuscationEnv=named:intermediary -Aquiet=true -AoutMapFileNamedIntermediary=E:\newmods\create_better_villagers\build\loom-cache\mixin-map-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.main.tiny &quot;-AinMapFileNamedIntermediary=C:\Users\Anoop Singh\.gradle\caches\fabric-loom\1.20.1\net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2\mappings.tiny&quot;" />
+    </option>
+  </component>
 </project>

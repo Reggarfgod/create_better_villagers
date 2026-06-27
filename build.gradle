@@ -11,15 +11,21 @@ base {
 }
 
 repositories {
-	//maven { url = "https://mvn.devos.one/snapshots/" } // Create Fabric, Forge Tags, Milk Lib, Registrate Fabric
-
+	maven { url = "https://mvn.devos.one/snapshots" } // Create Fabric, Forge Tags, Milk Lib, Registrate Fabric
 	maven { url = "https://mvn.devos.one/releases" } // Porting Lib releases
 	maven { url = "https://mvn.devos.one/snapshots" } // Create and several dependencies
-	maven { url = "https://maven.tterrag.com/" } // Flywheel
+	maven { url = "https://maven.createmod.net" }
 	maven { url = "https://maven.jamieswhiteshirt.com/libs-release" } // Reach Entity Attributes
 	maven { url = "https://raw.githubusercontent.com/Fuzss/modresources/main/maven" } // Forge Config API Port
 	maven { url "https://cursemaven.com"}
-
+	maven {
+		url "https://maven.terraformersmc.com/"
+		content {
+			includeGroup "dev.emi"
+			includeGroup "com.terraformersmc"
+		}
+	}
+	maven { url "https://maven.shedaniel.me/" }
 }
 
 fabricApi {
@@ -38,13 +44,22 @@ dependencies {
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
 	// Create - dependencies are added transitively
-	modImplementation("com.simibubi.create:create-fabric-${minecraft_version}:${create_version_fabric}")
+	modImplementation("com.simibubi.create:create-fabric:${create_version_fabric}")
 
 	//JER
 	modImplementation "curse.maven:just-enough-resources-jer-240630:5057223"
 
 	//JEI
 	modImplementation "curse.maven:jei-238222:6075246"
+
+	// Cloth Config
+	modApi("me.shedaniel.cloth:cloth-config-fabric:${project.cloth_config_version}") {
+		exclude(group: "net.fabricmc.fabric-api")
+	}
+
+	modImplementation("com.terraformersmc:modmenu:${rootProject.mod_menu_version}") {
+		transitive = false
+	}
 	
 }
 
